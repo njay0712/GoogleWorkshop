@@ -1,0 +1,70 @@
+body {
+    text-align: center;
+    background-color: #1346c8;
+}
+
+.heading {
+    font-family: "sans serif"
+}
+
+h1 {
+    color: rgb(255, 255, 255)
+}
+
+.search {
+    background-color: rgb(142, 142, 141);
+    border-radius: 20px;
+    padding-bottom: 10px;
+    padding-top: 5px;
+    border: 1px whitesmoke;
+    margin-bottom: 20px;
+}
+
+#search_query {
+    height: 20px;
+    border: none
+}
+
+#search_button {
+    border-radius: 50%;
+    border: none;
+    height: 30px;
+    width: 30px;
+}
+
+
+.search {
+    text-align: center;
+    background-color: rgb(219, 181, 181);
+    animation-name: example;
+    animation-duration: 10s;
+    background-repeat: repeat;
+  }
+  
+  @keyframes example {
+    from {background-color: red;}
+    to {background-color: yellow;}
+    to {background-color: orange;}
+  }
+
+
+.fade-in-text {
+    font-family: Arial;
+    font-size: 150px;
+    animation: fadeIn 5s;
+  }
+  
+
+  @keyframes fadeIn {
+    0% { opacity: 0; }
+    50% { opacity: 0.5;}
+    100% { opacity: 1; }
+  }
+
+  @keyframes fadeOut {
+    100% { opacity: 1;}
+    50% { opacity: 0.5;}
+    0% { opacity: 0;}
+  }
+
+  
